@@ -16,7 +16,7 @@ Or install it yourself as:
 
     $ gem install bootstrap_helperized
 
-## Usage
+## Modal box
 
 If you're using Ajax to send in the form:
 

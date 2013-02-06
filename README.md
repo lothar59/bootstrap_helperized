@@ -18,8 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+If you're using Ajax to send in the form:
 
+    = standard_modal_box(:id => 'edit_user', :title => 'Edit user')
+
+If you want to add the form beforehand you can pass as a block:
+
+    = standard_modal_box(:id => 'edit_user', :title => 'Edit user') do
+      = YOUR FORM HERE
+    
 ## Contributing
 
 1. Fork it

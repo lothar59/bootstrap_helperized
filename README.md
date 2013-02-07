@@ -20,12 +20,16 @@ Or install it yourself as:
 
 If you're using Ajax to send in the form:
 
-    = standard_modal_box(:id => 'edit_user', :title => 'Edit user')
+    = standard_modal_box(:id => 'new_user', :title => 'New user')
 
 If you want to add the form beforehand you can pass as a block:
 
-    = standard_modal_box(:id => 'edit_user', :title => 'Edit user') do
+    = standard_modal_box(:id => 'new_user', :title => 'New user') do
       = YOUR FORM HERE
+
+To trigger the modal box:
+
+    = link_to 'New user', '#new_user', :class => 'btn', 'data-toggle' => 'modal'
     
 ## Contributing
 

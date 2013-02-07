@@ -16,6 +16,8 @@ module BootstrapHelperized
       end
     end
 
+    protected
+
     def standard_modal_header(box_title)
       content_tag :div, :class => 'modal-header' do
         content_tag(:button, 'x', :class => 'close', 'data-dismiss' => 'modal', :type => 'button')+
@@ -30,5 +32,6 @@ module BootstrapHelperized
         end
       end
     end
+    
   end
 end

@@ -1,6 +1,6 @@
-# BootstrapHelperized
+# Bootstrap Helperized
 
-TODO: Write a gem description
+Some (one so far) helper methods for creating Bootstrap HTML.
 
 ## Installation
 

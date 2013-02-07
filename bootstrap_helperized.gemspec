@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = BootstrapHelperized::VERSION
   gem.authors       = ["Seb Weston"]
   gem.email         = ["sebweston@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Bootstrap helper methods}
+  gem.summary       = %q{Bootstrap helper methods that create Bootstrap HTML}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)

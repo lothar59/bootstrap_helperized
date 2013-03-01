@@ -3,11 +3,9 @@ module BootstrapHelperized
   module Helper
 
     def standard_modal_box(options = {}, &block)
-      css_id    = options[:id]
-      box_title = options[:title]
-      show_fade = options[:show_fade] || false
-
-      class_string = 'modal hide' + (options[:show_fade] ? ' fade' : '')
+      css_id     = options[:id]
+      box_title  = options[:title]
+      @show_fade = options[:show_fade] || false
 
       modal_options = { :id => css_id, 
                         :class => class_string, 
@@ -34,6 +32,10 @@ module BootstrapHelperized
           yield if block_given?
         end
       end
+    end
+
+    def class_string
+      'modal hide' + (@show_fade ? ' fade' : '')
     end
     
   end

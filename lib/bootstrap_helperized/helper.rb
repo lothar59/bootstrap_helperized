@@ -5,9 +5,12 @@ module BootstrapHelperized
     def standard_modal_box(options = {}, &block)
       css_id    = options[:id]
       box_title = options[:title]
+      show_fade = options[:show_fade] || false
+
+      class_string = 'modal hide' + (options[:show_fade] ? ' fade' : '')
 
       modal_options = { :id => css_id, 
-                        :class => 'modal hide fade', 
+                        :class => class_string, 
                         :role => 'dialog', 
                         :tabindex => '-1' }
 

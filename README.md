@@ -1,5 +1,7 @@
 # Bootstrap Helperized
 
+[![Code Climate](https://codeclimate.com/github/sebastyuiop/bootstrap_helperized.png)](https://codeclimate.com/github/sebastyuiop/bootstrap_helperized)
+
 Some (one so far) helper methods for creating Bootstrap HTML.
 
 ## Installation
